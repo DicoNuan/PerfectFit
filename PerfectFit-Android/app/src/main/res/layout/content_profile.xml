@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.softcustomer.perfectfit.activities.ProfileActivity"
+    tools:showIn="@layout/activity_profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
+
+        <RelativeLayout
+            android:id="@+id/profile_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textview_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amanda Fischer, 32"
+                android:textColor="@color/black"
+                android:textSize="21sp" />
+
+            <me.zhanghai.android.materialratingbar.MaterialRatingBar
+                android:id="@+id/ratingBar"
+                style="@style/Widget.MaterialRatingBar.RatingBar"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview_name"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:isIndicator="true"
+                android:minHeight="25dp"
+                android:rating="5" />
+
+            <TextView
+                android:id="@+id/textview_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/ratingBar"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_toEndOf="@id/ratingBar"
+                android:layout_toRightOf="@id/ratingBar"
+                android:text="5.0"
+                android:textColor="@color/colorGray"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textview_hour_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ratingBar"
+                android:layout_marginTop="5dp"
+                android:text="25 KD"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageview_flag"
+                android:layout_width="24dp"
+                android:layout_height="16dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/ratingBar"
+                android:src="@raw/flag_italy" />
+
+            <TextView
+                android:id="@+id/textview_nationality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/imageview_flag"
+                android:layout_marginTop="5dp"
+                android:text="Italian"
+                android:textColor="@color/secondaryText"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/profile_specialization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textview_specialization_ph"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginLeft="@dimen/profile_specialization_margin"
+                android:layout_marginStart="@dimen/profile_specialization_margin"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="@string/specialization"
+                android:textColor="@color/secondaryText"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textview_specialization"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginEnd="@dimen/profile_specialization_margin"
+                android:layout_marginRight="@dimen/profile_specialization_margin"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/dummy_specialization"
+                android:textColor="@color/secondaryText"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:id="@+id/profile_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/profile_top_margin"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_plans"
+                style="@style/ProfileButton"
+                android:text="@string/plans" />
+
+            <Button
+                android:id="@+id/button_booking"
+                style="@style/ProfileButton"
+                android:text="@string/booking" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/profile_about_me"
+            style="@style/ProfileContentStyle">
+
+            <TextView
+                android:id="@+id/textview_aboutme_title"
+                style="@style/ProfileTitleStyle"
+                android:text="@string/about_me" />
+
+            <TextView
+                android:id="@+id/textview_aboutme_content"
+                style="@style/ProfileContentText"
+                android:text="@string/dummy_bio" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/profile_coaching"
+            style="@style/ProfileContentStyle">
+
+            <TextView
+                android:id="@+id/textview_coaching_title"
+                style="@style/ProfileTitleStyle"
+                android:text="@string/coaching" />
+
+            <TextView
+                android:id="@+id/textview_coaching_content"
+                style="@style/ProfileContentText"
+                android:text="@string/dummy_coaching" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/profile_location"
+            style="@style/ProfileContentStyle">
+
+            <TextView
+                android:id="@+id/textview_location_title"
+                style="@style/ProfileTitleStyle"
+                android:text="@string/location" />
+
+            <TextView
+                android:id="@+id/textview_location_content"
+                style="@style/ProfileContentText"
+                android:text="@string/dummy_location" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/profile_bio"
+            style="@style/ProfileContentStyle">
+
+            <TextView
+                android:id="@+id/textview_bio_title"
+                style="@style/ProfileTitleStyle"
+                android:text="@string/bio" />
+
+            <com.softcustomer.perfectfit.widget.support.ExpandableTextView
+                android:id="@+id/textview_bio_content"
+                style="@style/ProfileContentText"
+                android:maxLines="4"
+                android:onClick="expand"
+                android:text="@string/dummy_bio" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

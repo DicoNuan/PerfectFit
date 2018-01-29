@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "com.softcustomer.perfectfit"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:26.0.1'
+    compile 'com.android.support:recyclerview-v7:26.0.1'
+    compile 'com.android.support:cardview-v7:26.0.1'
+    compile 'com.android.support:design:26.0.1'
+    compile 'com.android.support:support-v4:26.0.1'
+    compile 'com.android.support:support-v13:26.0.1'
+    compile 'com.android.support:support-vector-drawable:26.0.1'
+
+    compile('com.crashlytics.sdk.android:crashlytics:2.6.8@aar') {
+        transitive = true;
+    }
+  //  compile 'com.wdullaer:materialdatetimepicker:3.3.0'
+    compile 'com.github.rahimlis:MaterialDateRangePicker:576501724c'
+
+    compile 'cn.pedant.sweetalert:library:1.3'
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'org.ocpsoft.prettytime:prettytime:4.0.1.Final'
+    compile 'com.google.code.gson:gson:2.8.1'
+    compile 'uk.co.chrisjenx:calligraphy:2.3.0'
+    compile 'com.andkulikov:transitionseverywhere:1.7.4'
+    compile 'io.fotoapparat.fotoapparat:library:1.3.0'
+    compile 'me.zhanghai.android.materialratingbar:library:1.0.2'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.github.alamkanak:android-week-view:1.2.6'
+}

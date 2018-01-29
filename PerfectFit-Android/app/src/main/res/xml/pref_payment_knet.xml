@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/pref_payment_KNET">
+
+
+    <EditTextPreference
+        android:defaultValue="@string/dummy_bank"
+        android:key="pref_bank_name"
+        android:title="@string/pref_title_bank" />
+
+
+    <EditTextPreference
+        android:defaultValue="@string/dummy_prefix"
+        android:key="pref_bank_prefix"
+        android:title="@string/pref_title_prefix" />
+
+    <EditTextPreference
+        android:defaultValue="@string/dummy_expire"
+        android:inputType="date"
+        android:key="pref_bank_expire"
+        android:title="@string/pref_title_expire" />
+
+    <EditTextPreference
+        android:defaultValue="@string/dummy_pass"
+        android:inputType="textPassword"
+        android:key="pref_bank_pin"
+        android:title="@string/pref_title_pin" />
+
+</PreferenceScreen>

@@ -1,0 +1,296 @@
+<resources>
+    <string name="app_name">PerfectFit</string>
+    <string name="title_home">Home</string>
+    <string name="title_messages">Messages</string>
+    <string name="title_profile">Profile</string>
+    <string name="please_wait">Please wait</string>
+    <string name="loading">Loading..</string>
+    <string name="error">Error</string>
+    <string name="connection_error">Connection error</string>
+    <string name="try_again">Try again</string>
+    <string name="title_trainers">Trainers</string>
+    <string name="title_nutritionists">NUTRITIONISTS</string>
+    <string name="dummy_text">Secondary line text lorem ipsum dapibus, neque id cursus faucibudaslkdaslkjdal skjdlak sjdlkasj ldkaslkdjass</string>
+    <string name="dummy_text3">This lorem ipsum generator is made for all the webdesigners, designers, webmasters and others who need lorem ipsum. Generator is made the way that everyone can use it, but especially for projects which need html markup. You can decide which html tags you want and our generator will generate just as you specified.</string>
+    <string name="type_message_hint">Type a message</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="action_settings">Settings</string>
+    <string name="specialization">Specialization</string>
+    <string name="about_me">About me</string>
+    <string name="dummy_bio">I am a passionate and driven Strength Coach that users my experience as an athlete and couch to design the best program possible for each client.d asd asd asd asd gdfsg sdfh  asudfoi uasdfi gasdiuf oiasdugf isadufis agdfiuds aifj sadiuf isoaudgfoi uasgdfio uasgdfio ugadsifug </string>
+    <string name="location">Location</string>
+    <string name="dummy_location">Fahad Al-Salem street, Kuwaite</string>
+    <string name="coaching">Coaching</string>
+    <string name="dummy_coaching">Kids, Teenagers, Adults, Seniors</string>
+    <string name="bio">Bio</string>
+    <string name="plans">Plans</string>
+    <string name="booking">Booking</string>
+    <string name="not_specified">Not specified</string>
+    <string name="trainer_profile">Trainer profile</string>
+    <string name="dummy_specialization">MMA, Martial, Boxing</string>
+    <string name="title_activity_search_settings">Search Settings</string>
+
+
+    <string name="pref_title_activities">Select activity</string>
+    <string name="pref_title_countries">Select country</string>
+    <string name="pref_title_genders">What genders do I train</string>
+    <string name="pref_title_trainers">Groups or individuals</string>
+    <string name="pref_title_type">Type</string>
+    <string name="pref_title_affiliated">Affiliated with a gym</string>
+    <string name="pref_booking_info">Info</string>
+    <string name="pref_title_booking_date">Select date</string>
+    <string name="pref_title_booking_start_time">Select start time</string>
+    <string name="pref_title_booking_end_time">Select end time</string>
+    <string name="pref_title_booking_location">Meet-up Location</string>
+    <string name="pref_title_booking_medical">Medical history</string>
+    <string name="pref_title_promotion_code">Promotion code</string>
+    <string name="pref_title_total_price">Total price</string>
+    <string name="pref_categories_aerobic">Aerobic items</string>
+    <string name="pref_categories_aerobic_wersling">Aerobic and wersling items</string>
+    <string name="pref_aerobics">Select categories</string>
+    <string name="action_contact">Contact</string>
+    <string name="session_tracking">Session tracking</string>
+    <string name="rating_reviews">Rating and reviews</string>
+    <string name="payment_history">Payment history</string>
+    <string name="become_trainer">Become a trainer</string>
+    <string name="dummy_name">SoftCustomer</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_delete_account">Delete account</string>
+    <string name="title_activity_user_profile">Profile settings</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="pref_name">Name</string>
+    <string name="pref_title_height">Height</string>
+    <string name="pref_title_weight">Weight</string>
+    <string name="user_info">User info</string>
+    <string name="account_info">Account info</string>
+    <string name="dummy_email">SoftCustomer@gmail.com</string>
+    <string name="pref_title_email">Email</string>
+    <string name="pref_title_phone">Phone number</string>
+    <string name="dummy_number">+965 111 1111</string>
+    <string name="pref_title_password">Password</string>
+    <string name="dummy_city">Kuwait</string>
+    <string name="pref_title_city">City</string>
+    <string name="dummy_pass">*******</string>
+    <string name="dummy_price">40K</string>
+    <string name="transactions">Transactions</string>
+    <string name="title_new">New</string>
+    <string name="title_ended">Ended</string>
+    <string name="title_activity_payment_history">Payment History</string>
+    <string name="dummy_text2">This lorem ipsum generator is made for all the webdesigners, designers, webmasters and others who need lorem ipsum. Generator is made the way that everyone can use it, but especially for projects which need html markup. You can decide which html tags you want and our generator will generate just as you specified.</string>
+    <string name="dummy_name2">Amanda Fischer</string>
+    <string name="review">Review</string>
+    <string name="date">Date</string>
+    <string name="session_length">Session length</string>
+    <string name="price">Price</string>
+    <string name="method">Method</string>
+    <string name="session">Session</string>
+    <string name="dummy_date">10 Oct</string>
+    <string name="dummy_length">2 hour</string>
+    <string name="dummy_activity">Aerobica</string>
+    <string name="dummy_method">PayPal</string>
+    <string name="review_placeholder">Add review</string>
+    <string name="info">Info</string>
+    <string name="title_activity_review">Review</string>
+    <string name="dummy_review">For your training session on Tuesday 5 December with Amanda Fisher, please take a nonent to let up know how your trainer did and if you have any feedback for him or us.</string>
+    <string name="punctuality_timing">Punctionality / Timing</string>
+    <string name="courteosness">Courteosness / Manners</string>
+    <string name="performance">Perfomance / Knowledge</string>
+    <string name="overall">Overall satisfaction</string>
+    <string name="public_review">Public review</string>
+    <string name="enter_text">Enter text</string>
+    <string name="trainer_feedback">Trainer feedback</string>
+    <string name="thank_for_feedback">Thank you for your feedback</string>
+    <string name="trainr">Trainr</string>
+    <string name="title_activity_tracking_info">Tracking info</string>
+    <string name="title_activity_become_trainer">Become a trainer</string>
+    <string name="train_everywhere">Train Every Where</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="terms_of_use">Terms of use</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_signup">Sign up</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="prompt_confirm_password">Confirm password</string>
+    <string name="error_passwords_not_matched">Passwords are not matched</string>
+    <string name="register_phone">Phone</string>
+    <string name="register_facebook">Facebook</string>
+    <string name="register_email">Email</string>
+    <string name="register_with">Sign up with</string>
+    <string name="prompt_phone_country">+965 Kuwait</string>
+    <string name="prompt_phone">Enter phone number</string>
+    <string name="error_invalid_phone">This number is too short</string>
+    <string name="action_request">Request</string>
+    <string name="textview_pass_reset_prompt">Please enter your email address for reset password</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="done">Done</string>
+    <string name="title_activity_forgot_pass">Forgot password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="okay">Okay</string>
+    <string name="title_activity_categories">Categories</string>
+    <string name="title_pending">Pending</string>
+    <string name="title_activity_plans">Plans</string>
+    <string name="title_activity_payment">Payment</string>
+    <string name="pref_payment_type">Payment type</string>
+    <string name="Visa">Visa</string>
+    <string name="pref_title_payment">Select payment type</string>
+    <string name="pref_payment_info">Payment info</string>
+    <string name="pref_title_cardholder">Cardholder</string>
+    <string name="dummy_card">0000 0000 0000 0000</string>
+    <string name="pref_title_number">Number</string>
+    <string name="dummy_expire">MM/YY</string>
+    <string name="pref_title_expire">Expire</string>
+    <string name="pref_cat_booking">Booking info</string>
+    <string name="pref_title_trainer">Trainer</string>
+    <string name="dummy_time_range">9.00 am - 12.00 pm</string>
+    <string name="pref_title_duration">Hours</string>
+    <string name="pref_title_add_to_calendar">Add to calendar</string>
+    <string name="pref_title_price">Price</string>
+    <string name="pref_title_save_payment">Save payment method</string>
+    <string name="title_activity_booking">Booking</string>
+    <string name="message_set_for_session">You\'re all set for  your session. Let\'s get fit!</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="title_activity_rating_review">Rating and reviews</string>
+    <string name="title_activity_history_reviews">History Reviews</string>
+    <string name="dummy_code">xxx-xxx</string>
+    <string name="dummy_name3">Anna Keller</string>
+    <string name="title_activity_camera">Take photo</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Select from gallery</string>
+    <string name="dummy_height">170sm</string>
+    <string name="dummy_weight">70kg</string>
+    <string name="dummy_email2">AnnaKeller@gmail.com</string>
+    <string name="category_paypal">cat_paypal</string>
+    <string name="category_card">cat_card</string>
+    <string name="category_knet">cat_knet</string>
+    <string name="pref_payment_visa">Visa</string>
+    <string name="pref_payment_mastercard">MasterCard</string>
+    <string name="pref_payment_paypal">PayPal</string>
+    <string name="pref_payment_KNET">KNET</string>
+    <string name="dummy_bank">Central Bank</string>
+    <string name="pref_title_bank">Select Bank</string>
+    <string name="dummy_prefix">AA</string>
+    <string name="pref_title_prefix">Prefix</string>
+    <string name="pref_title_pin">PIN</string>
+    <string name="pref_title_cash">Cash</string>
+    <string name="title_type_to_search">Type to search</string>
+    <string name="pref_title_cities">Select cities</string>
+    <string name="title_cancel">Cancel</string>
+    <string name="title_ok">Okay</string>
+    <string name="action_booking">BOOKING</string>
+    <string name="pref_plans">Please select plans</string>
+    <string name="submit_order">Submit order</string>
+    <string name="message_trainer_contact">The trainer will contact with you soon</string>
+    <string name="message_success_order">Successfully ordered</string>
+    <string name="title_plan_desc">Plan description</string>
+    <string name="title_plan_requirements">Requirements</string>
+    <string name="title_plan_deliverable">Deliverable</string>
+    <string name="pref_title_booking_time_range">Select timeframe</string>
+    <string name="message_not_continious_time_range">You have selected discontinous time range</string>
+    <string name="title_confirm_selection">Confirm selection</string>
+    <string name="message_yes">Yes</string>
+    <string name="message_no">No</string>
+    <string name="title_group_size">Group size</string>
+    <string name="message_enter_group_size">Please enter a group size</string>
+    <string name="pref_group_size">Group size</string>
+</resources>

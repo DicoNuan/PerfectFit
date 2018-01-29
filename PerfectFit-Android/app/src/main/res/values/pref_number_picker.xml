@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RangePreference">
+        <attr name="unit_type" format="integer">
+            <flag name="weight" value="1" />
+            <flag name="height" value="2" />
+        </attr>
+
+        <attr name="min" format="integer" />
+
+        <attr name="max" format="integer" />
+
+        <attr name="units" format="reference" />
+
+    </declare-styleable>
+</resources>

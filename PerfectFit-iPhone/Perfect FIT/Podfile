@@ -1,0 +1,2 @@
+pod 'StarryStars', '~> 0.0.1'
+use_frameworks! 

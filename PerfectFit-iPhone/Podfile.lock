@@ -1,0 +1,50 @@
+PODS:
+  - Alamofire (4.5.0)
+  - BTNavigationDropdownMenu (0.4.1)
+  - Crashlytics (3.8.5):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.12)
+  - Kingfisher (3.10.3)
+  - SwiftEventBus (2.2.0)
+  - SwiftyJSON (3.1.4)
+  - XLPagerTabStrip (7.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5.0)
+  - BTNavigationDropdownMenu (from `https://github.com/PhamBaTho/BTNavigationDropdownMenu.git`, branch `swift-3.0`)
+  - Crashlytics
+  - Fabric
+  - Kingfisher (~> 3.10.3)
+  - SwiftEventBus (from `https://github.com/cesarferreira/SwiftEventBus.git`, tag `2.2.0`)
+  - SwiftyJSON (~> 3.1.4)
+  - XLPagerTabStrip (~> 7.0)
+
+EXTERNAL SOURCES:
+  BTNavigationDropdownMenu:
+    :branch: swift-3.0
+    :git: https://github.com/PhamBaTho/BTNavigationDropdownMenu.git
+  SwiftEventBus:
+    :git: https://github.com/cesarferreira/SwiftEventBus.git
+    :tag: 2.2.0
+
+CHECKOUT OPTIONS:
+  BTNavigationDropdownMenu:
+    :commit: e11a720322afc8baa02b3ff63fcc630e4f9de577
+    :git: https://github.com/PhamBaTho/BTNavigationDropdownMenu.git
+  SwiftEventBus:
+    :git: https://github.com/cesarferreira/SwiftEventBus.git
+    :tag: 2.2.0
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  BTNavigationDropdownMenu: 093f3cbfad1572f2c222bdf8d17584d1e13380d4
+  Crashlytics: dfbae35ef22ca189240d230ad501feea4ee85d2d
+  Fabric: f050464eac45a2ce5a8e6e6a07e977c0df32fe28
+  Kingfisher: a0ac82dc5bcf0388dd74b294cf2cc13730c63436
+  SwiftEventBus: 39cde57d1881f9d6e8afb1f9e41f973e331bf847
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  XLPagerTabStrip: 9be80a66c6b7d60306b2c0a6004965016d68f813
+
+PODFILE CHECKSUM: 058f1dc7b9a4f64d5f84eb5ebd6eaeac9fb3d026
+
+COCOAPODS: 1.2.1

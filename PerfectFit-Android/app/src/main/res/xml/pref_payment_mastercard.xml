@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/pref_payment_mastercard">
+
+    <EditTextPreference
+        android:defaultValue="@string/dummy_name"
+        android:inputType="textPersonName"
+        android:key="pref_mastercard_cardholder"
+        android:title="@string/pref_title_cardholder" />
+
+
+    <EditTextPreference
+        android:defaultValue="@string/dummy_card"
+        android:inputType="number"
+        android:key="pref_mastercard_card_number"
+        android:title="@string/pref_title_number" />
+
+    <EditTextPreference
+        android:defaultValue="@string/dummy_expire"
+        android:inputType="date"
+        android:key="pref_mastercard_card_expire"
+        android:title="@string/pref_title_expire" />
+
+</PreferenceScreen>

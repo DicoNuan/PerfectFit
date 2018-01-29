@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/white"
+    android:gravity="start|center"
+    android:paddingLeft="10dp"
+    android:paddingStart="10dp">
+
+
+    <TextView
+        android:id="@+id/textview_session_trainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="aaa"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/textview_session_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_session_trainer"
+        android:layout_marginTop="2dp" />
+
+    <TextView
+        android:id="@+id/textview_session_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:text="aaa"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textview_session_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textview_session_time"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:text="aaa" />
+
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    <PreferenceCategory android:title="@string/user_info">
+
+        <EditTextPreference
+            android:defaultValue="@string/dummy_name3"
+            android:key="pref_user_name"
+            android:title="@string/pref_name" />
+
+
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/pref_genders"
+            android:entryValues="@array/pref_genders_values"
+            android:key="pref_user_gender"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_title_genders" />
+
+        <com.softcustomer.perfectfit.widget.support.RangePreference
+            android:dialogLayout="@layout/layout_range_picker"
+            android:key="pref_user_height"
+            android:title="@string/pref_title_height"
+            app:max="240"
+            app:min="40"
+            app:unit_type="height"
+            app:units="@array/pref_height_units" />
+
+        <com.softcustomer.perfectfit.widget.support.RangePreference
+            android:dialogLayout="@layout/layout_range_picker"
+            android:key="pref_user_weight"
+            android:title="@string/pref_title_weight"
+            app:max="300"
+            app:min="20"
+            app:unit_type="weight"
+            app:units="@array/pref_weight_units" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/account_info">
+        <EditTextPreference
+            android:defaultValue="@string/dummy_email2"
+            android:inputType="textEmailAddress"
+            android:key="pref_user_email"
+            android:title="@string/pref_title_email" />
+
+        <EditTextPreference
+            android:defaultValue="@string/dummy_number"
+            android:inputType="phone"
+            android:key="pref_user_phone"
+            android:title="@string/pref_title_phone" />
+        <EditTextPreference
+            android:defaultValue="@string/dummy_pass"
+            android:inputType="textPassword"
+            android:key="pref_user_password"
+            android:title="@string/pref_title_password" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

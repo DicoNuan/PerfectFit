@@ -1,0 +1,64 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:key="pref_booking_info"
+        android:title="@string/pref_booking_info">
+
+        <com.softcustomer.perfectfit.widget.support.DateTimePreference
+            android:key="pref_booking_date"
+            android:title="@string/pref_title_booking_date"
+            app:type="date" />
+
+        <!--<com.softcustomer.perfectfit.widget.support.DateTimePreference-->
+        <!--android:key="pref_booking_start_time"-->
+        <!--app:type="time"-->
+        <!--android:title="@string/pref_title_booking_time_range" />-->
+
+        <!--<com.softcustomer.perfectfit.widget.support.DateTimePreference-->
+        <!--app:type="time"-->
+        <!--android:key="pref_booking_end_time"-->
+        <!--android:title="@string/pref_title_booking_end_time" />-->
+
+        <MultiSelectListPreference
+            android:defaultValue="@array/empty"
+            android:entries="@array/pref_booking_time_ranges"
+            android:entryValues="@array/pref_booking_time_ranges"
+            android:key="pref_booking_time_range"
+            android:negativeButtonText="@string/title_cancel"
+            android:positiveButtonText="@string/okay"
+            android:title="@string/pref_title_booking_time_range" />
+
+        <EditTextPreference
+            android:defaultValue="@string/dummy_location"
+            android:key="pref_booking_location"
+            android:title="@string/pref_title_booking_location" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/pref_trainers"
+            android:entryValues="@array/pref_trainers_values"
+            android:key="pref_booking_trainers"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_title_trainers" />
+
+        <EditTextPreference
+            android:defaultValue="@string/dummy_text"
+            android:inputType="textMultiLine"
+            android:key="pref_booking_medical_history"
+            android:title="@string/pref_title_booking_medical" />
+
+        <EditTextPreference
+            android:defaultValue="@string/dummy_code"
+            android:key="pref_booking_promotion_code"
+            android:title="@string/pref_title_promotion_code" />
+
+        <EditTextPreference
+            android:defaultValue="@string/dummy_price"
+            android:key="pref_booking_total_price"
+            android:title="@string/pref_title_total_price" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

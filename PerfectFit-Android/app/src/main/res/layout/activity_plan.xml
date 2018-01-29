@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.softcustomer.perfectfit.activities.PlanActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:gravity="center"
+        app:titleTextColor="@color/colorAccent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="@dimen/toolbar_icon_padding"
+            android:theme="@style/AppTheme.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:srcCompat="@drawable/ic_logo" />
+    </android.support.v7.widget.Toolbar>
+
+
+    <com.softcustomer.perfectfit.widget.support.WeekView
+        android:id="@+id/weekView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        app:columnGap="8dp"
+        app:eventCornerRadius="10dp"
+        app:eventTextColor="@color/white"
+        app:headerColumnBackground="@color/colorAlternative2"
+        app:headerColumnPadding="10dp"
+        app:headerColumnTextColor="#8f000000"
+        app:headerRowPadding="20dp"
+        app:hourHeight="40dp"
+        app:minHourHeight="20dp"
+        app:noOfVisibleDays="7"
+        app:textSize="12sp"
+        app:todayBackgroundColor="#1848adff" />
+
+</RelativeLayout>

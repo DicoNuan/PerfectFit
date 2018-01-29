@@ -1,0 +1,62 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_payment_type">
+
+        <Preference
+            android:key="pref_visa"
+            android:title="@string/pref_payment_visa" />
+
+        <Preference
+            android:key="pref_mastercard"
+            android:title="@string/pref_payment_mastercard" />
+
+
+        <Preference
+            android:key="pref_knet"
+            android:title="@string/pref_payment_KNET" />
+
+
+        <Preference
+            android:key="pref_paypal"
+            android:title="@string/pref_payment_paypal" />
+
+        <Preference
+            android:key="pref_cash"
+            android:title="@string/pref_title_cash" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/pref_cat_booking">
+
+
+        <EditTextPreference
+            android:defaultValue="@string/dummy_name2"
+            android:inputType="textPersonName"
+            android:key="pref_trainer_name"
+            android:title="@string/pref_title_trainer" />
+
+        <EditTextPreference
+            android:defaultValue="@string/dummy_price"
+            android:key="pref_booking_price"
+            android:title="@string/pref_title_price" />
+
+        <EditTextPreference
+            android:defaultValue="@string/dummy_time_range"
+            android:key="pref_duration"
+            android:title="@string/pref_title_duration" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pref_add_to_calendar"
+            android:title="@string/pref_title_add_to_calendar" />
+
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pref_save_payment"
+            android:title="@string/pref_title_save_payment" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

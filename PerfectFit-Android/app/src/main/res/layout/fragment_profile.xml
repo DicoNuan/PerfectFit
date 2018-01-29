@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="?android:dividerHorizontal"
+        android:orientation="vertical"
+        android:showDividers="middle">
+
+        <LinearLayout
+            android:id="@+id/layout_user_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:src="@raw/profile5" />
+
+            <TextView
+                style="@style/ProfileTabText"
+                android:text="@string/dummy_name" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textview_session_tracking"
+            style="@style/ProfileTabText"
+            android:text="@string/session_tracking" />
+
+        <TextView
+            android:id="@+id/textview_rating_reviews"
+            style="@style/ProfileTabText"
+            android:text="@string/rating_reviews" />
+
+        <TextView
+            android:id="@+id/textview_payment_history"
+            style="@style/ProfileTabText"
+            android:text="@string/payment_history" />
+
+        <TextView
+            android:id="@+id/textview_become_trainer"
+            style="@style/ProfileTabText"
+            android:text="@string/become_trainer" />
+
+    </LinearLayout>
+
+</FrameLayout>

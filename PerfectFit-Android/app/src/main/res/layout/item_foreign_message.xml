@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="start"
+    android:orientation="horizontal"
+    android:padding="4dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageview_profile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_foreign_message">
+
+        <TextView
+            android:id="@+id/textview_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/chat_message_bottom_margin"
+            android:layout_marginEnd="@dimen/chat_message_end_margin"
+            android:layout_marginRight="@dimen/chat_message_end_margin"
+            android:maxWidth="@dimen/chat_message_max_width"
+            android:padding="@dimen/chat_message_padding"
+            android:textColor="@color/black"
+            android:textSize="@dimen/chat_message_text_size" />
+
+        <TextView
+            android:id="@+id/textview_timestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="@dimen/chat_timestamp_end_margin"
+            android:layout_marginRight="@dimen/chat_timestamp_end_margin"
+            android:textColor="@color/black"
+            android:textSize="@dimen/chat_timestamp_text_size" />
+    </FrameLayout>
+
+</LinearLayout>

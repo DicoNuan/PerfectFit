@@ -1,0 +1,62 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/pref_activities"
+        android:entryValues="@array/pref_activity_values"
+        android:key="pref_activity"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_activities" />
+
+    <MultiSelectListPreference
+        android:defaultValue="@array/empty"
+        android:entries="@array/pref_cities"
+        android:entryValues="@array/pref_city_values"
+        android:key="pref_cities"
+        android:negativeButtonText="@string/title_cancel"
+        android:positiveButtonText="@string/title_ok"
+        android:title="@string/pref_title_cities" />
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/pref_genders"
+        android:entryValues="@array/pref_genders_values"
+        android:key="pref_gender"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_genders" />
+
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/pref_type"
+        android:entryValues="@array/pref_type_values"
+        android:key="pref_type"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_type" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_trainers"
+        android:entryValues="@array/pref_trainers_values"
+        android:key="pref_trainers"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_trainers" />
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/pref_affiliated"
+        android:entryValues="@array/pref_affiliated_values"
+        android:key="pref_affiliated"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_affiliated" />
+
+</PreferenceScreen>

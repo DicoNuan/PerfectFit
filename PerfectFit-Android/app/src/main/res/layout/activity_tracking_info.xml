@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.softcustomer.perfectfit.activities.user.TrackingInfoActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/info" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="?android:dividerHorizontal"
+        android:orientation="vertical"
+        android:showDividers="middle">
+
+        <LinearLayout
+            android:id="@+id/layout_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:padding="5dp"
+                android:src="@raw/profile1" />
+
+            <TextView
+                style="@style/ProfileTabText"
+                android:text="@string/dummy_name2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textview_review"
+                style="@style/TrackingInfoText"
+                android:text="@string/review" />
+
+            <TextView
+                android:id="@+id/textview_review_value"
+                style="@style/TrackingValueText"
+                android:text="@string/review_placeholder" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textview_date"
+                style="@style/TrackingInfoText"
+                android:text="@string/date" />
+
+            <TextView
+                android:id="@+id/textview_date_value"
+                style="@style/TrackingValueText"
+                android:text="@string/dummy_date" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textview_session_length"
+                style="@style/TrackingInfoText"
+                android:text="@string/session_length" />
+
+            <TextView
+                android:id="@+id/textview_session_length_value"
+                style="@style/TrackingValueText"
+                android:text="@string/dummy_length" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textview_session"
+                style="@style/TrackingInfoText"
+                android:text="@string/session" />
+
+            <TextView
+                android:id="@+id/textview_session_value"
+                style="@style/TrackingValueText"
+                android:text="@string/dummy_activity" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textview_price"
+                style="@style/TrackingInfoText"
+                android:text="@string/price" />
+
+            <TextView
+                android:id="@+id/textview_price_value"
+                style="@style/TrackingValueText"
+                android:text="@string/dummy_price" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textview_method"
+                style="@style/TrackingInfoText"
+                android:text="@string/method" />
+
+            <TextView
+                android:id="@+id/textview_method_value"
+                style="@style/TrackingValueText"
+                android:text="@string/dummy_method" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

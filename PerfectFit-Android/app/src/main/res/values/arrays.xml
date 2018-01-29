@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="countries">
+        <item>Kuwait</item>
+        <item>China</item>
+        <item>Russia</item>
+        <item>France</item>
+        <item>USA</item>
+        <item>Italy</item>
+        <item>Belarus</item>
+        <item>Germany</item>
+        <item>England</item>
+        <item>Mexico</item>
+        <item>Spain</item>
+        <item>Turkey</item>
+    </string-array>
+
+    <string-array name="pref_cities">
+        <item>All</item>
+        <item>Bayan</item>
+        <item>Bnied Al-Gar</item>
+        <item>Hawalli</item>
+        <item>Mishref</item>
+        <item>Salmiya</item>
+        <item>Salwa</item>
+        <item>Sharq</item>
+        <item>Al-jabriya</item>
+        <item>Abdullah Al-salem</item>
+        <item>Doha</item>
+        <item>Faiha</item>
+    </string-array>
+
+
+    <string-array name="pref_city_values">
+        <item>0</item>
+        <item>Bayan</item>
+        <item>Bnied Al-Gar</item>
+        <item>Hawalli</item>
+        <item>Mishref</item>
+        <item>Salmiya</item>
+        <item>Salwa</item>
+        <item>Sharq</item>
+        <item>Al-jabriya</item>
+        <item>Abdullah Al-salem</item>
+        <item>Doha</item>
+        <item>Faiha</item>
+    </string-array>
+
+    <string-array name="pref_activities">
+        <item>all</item>
+        <item>Air racing</item>
+        <item>Gungdo</item>
+        <item>Badminton</item>
+        <item>Bossaball</item>
+        <item>Pickleball</item>
+        <item>Slamball</item>
+        <item>Kickball</item>
+        <item>Gymnastics</item>
+        <item>Snowkiting</item>
+        <item>Basketball</item>
+    </string-array>
+
+    <string-array name="pref_activity_values">
+        <item>Kuwait</item>
+        <item>0</item>
+        <item>Air racing</item>
+        <item>Gungdo</item>
+        <item>Badminton</item>
+        <item>Bossaball</item>
+        <item>Pickleball</item>
+        <item>Slamball</item>
+        <item>Kickball</item>
+        <item>Gymnastics</item>
+        <item>Snowkiting</item>
+        <item>Basketball</item>
+    </string-array>
+
+
+    <string-array name="pref_genders_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="pref_genders">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Any</item>
+    </string-array>
+
+    <string-array name="pref_type">
+        <item>Incall (I come to you)</item>
+        <item>Outcall (You come to me)</item>
+        <item>Both</item>
+    </string-array>
+
+    <string-array name="pref_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="pref_trainers">
+        <item>Groups</item>
+        <item>Individual</item>
+        <item>Both</item>
+    </string-array>
+
+    <string-array name="pref_trainers_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="pref_affiliated">
+        <item>Both</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="pref_affiliated_values">
+        <item>0</item>
+        <item>1</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="pref_aerobics">
+        <item>Aerobics</item>
+        <item>Aerobics</item>
+        <item>Aerobics</item>
+        <item>Aerobics</item>
+    </string-array>
+
+
+    <string-array name="pref_aerobics_values">
+        <item>Aerobics</item>
+        <item>Aerobics</item>
+        <item>Aerobics</item>
+        <item>Aerobics</item>
+    </string-array>
+
+    <string-array name="empty">
+
+    </string-array>
+
+    <string-array name="pref_booking_time_ranges">
+        <item>12:00 AM - 01:00 AM</item>
+        <item>01:00 AM - 02:00 AM</item>
+        <item>02:00 AM - 03:00 AM</item>
+        <item>03:00 AM - 04:00 AM</item>
+        <item>04:00 AM - 05:00 AM</item>
+        <item>05:00 AM - 06:00 AM</item>
+        <item>06:00 AM - 07:00 AM</item>
+        <item>07:00 AM - 08:00 AM</item>
+        <item>08:00 AM - 09:00 AM</item>
+        <item>09:00 AM - 10:00 AM</item>
+        <item>10:00 AM - 11:00 AM</item>
+        <item>11:00 AM - 12:00 PM</item>
+        <item>12:00 PM - 01:00 PM</item>
+        <item>01:00 PM - 02:00 PM</item>
+        <item>02:00 PM - 03:00 PM</item>
+        <item>03:00 PM - 04:00 PM</item>
+        <item>04:00 PM - 05:00 PM</item>
+        <item>05:00 PM - 06:00 PM</item>
+        <item>06:00 PM - 07:00 PM</item>
+        <item>07:00 PM - 08:00 PM</item>
+        <item>08:00 PM - 09:00 PM</item>
+        <item>09:00 PM - 10:00 PM</item>
+        <item>10:00 PM - 11:00 PM</item>
+        <item>11:00 PM - 12:00 AM</item>
+    </string-array>
+
+
+    <string-array name="pref_aerobics_wersling">
+        <item>Aerobics</item>
+        <item>Aerobics</item>
+        <item>Aerobics</item>
+        <item>Aerobics</item>
+    </string-array>
+
+    <string-array name="pref_aerobics_values_wersling">
+        <item>Aerobics</item>
+        <item>Aerobics</item>
+        <item>Aerobics</item>
+        <item>Aerobics</item>
+    </string-array>
+
+    <string-array name="pref_payments">
+        <item>Visa</item>
+        <item>MasterCard</item>
+        <item>Amex</item>
+        <item>PayPal</item>
+        <item>KNET</item>
+        <item>Cash</item>
+    </string-array>
+
+    <string-array name="pref_weight_units">
+        <item>kg</item>
+        <item>lb</item>
+    </string-array>
+
+
+    <string-array name="pref_height_units">
+        <item>sm</item>
+        <item>foot</item>
+    </string-array>
+    <string-array name="pref_plans">
+        <item>Healthy Eating</item>
+        <item>Poleo Lifestyle</item>
+        <item>Corb Loading</item>
+        <item>Title of plan</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_chat_height">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageview_profile"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:src="@raw/profile1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_toEndOf="@id/imageview_profile"
+        android:layout_toRightOf="@id/imageview_profile"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp">
+
+        <TextView
+            android:id="@+id/textview_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anna Keller"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/textview_last_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/dummy_text" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textview_timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="3:29 PM" />
+
+
+</RelativeLayout>

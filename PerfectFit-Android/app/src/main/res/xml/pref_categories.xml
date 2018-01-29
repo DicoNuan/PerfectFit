@@ -1,0 +1,26 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="pref_aerobic_sport"
+        android:title="@string/pref_categories_aerobic">
+
+        <MultiSelectListPreference
+            android:entries="@array/pref_aerobics"
+            android:entryValues="@array/pref_aerobics_values"
+            android:key="pref_aerobic"
+            android:title="@string/pref_aerobics" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:key="pref_aerobic_wersling_sport"
+        android:title="@string/pref_categories_aerobic_wersling">
+
+        <MultiSelectListPreference
+            android:entries="@array/pref_aerobics_wersling"
+            android:entryValues="@array/pref_aerobics_values_wersling"
+            android:key="pref_aerobic_wersling"
+            android:title="@string/pref_aerobics" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

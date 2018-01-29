@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DateTimePreference">
+        <attr name="type" format="integer">
+            <flag name="date" value="1" />
+            <flag name="time" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/pref_payment_paypal">
+
+    <EditTextPreference
+        android:defaultValue="@string/dummy_email"
+        android:inputType="textEmailAddress"
+        android:key="pref_paypal_email"
+        android:title="@string/pref_title_email" />
+
+    <EditTextPreference
+        android:defaultValue="@string/dummy_pass"
+        android:inputType="textPassword"
+        android:key="pref_paypal_password"
+        android:title="@string/pref_title_password" />
+
+</PreferenceScreen>
